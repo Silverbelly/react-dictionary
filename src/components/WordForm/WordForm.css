@@ -1,0 +1,26 @@
+.card-form {
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 25px auto;
+    padding-top: 10px 0px;
+}
+
+.card-form input {
+    margin-left: 15px;
+    padding: 6px;
+}
+
+.card-form button {
+                     /* highly ineffecient as a selector but on for small apps. reason: selector will select all buttons then filter by the class. 
+                        selector effeciency matters */
+    padding: 6px;
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.form-row {
+    margin: 8px auto;
+}
